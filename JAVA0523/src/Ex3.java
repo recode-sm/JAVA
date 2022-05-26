@@ -72,6 +72,10 @@ class Developer implements LoginProcess {
 		System.out.println("개발자가 전달받은 아이디 : " + id);
 		System.out.println("개발자가 전달받은 패스워드 : " + pass);
 		
+		if(id.equals("admin") && pass.equals("1234")) {
+			
+		}
+			
 		System.out.println("아이디와 패스워드로 로그인 작업 처리 완료!");
 		
 		return "성공";
